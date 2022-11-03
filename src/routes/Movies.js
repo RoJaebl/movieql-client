@@ -10,6 +10,7 @@ function Movies() {
         query: gql`
           {
             allMovies {
+              id
               title
             }
           }
